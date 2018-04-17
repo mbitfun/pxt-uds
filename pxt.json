@@ -1,0 +1,17 @@
+{
+    "name": "pxt-uds",
+    "version": "0.0.0",
+    "description": "Ultrasonic distance sensor",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
