@@ -8,6 +8,6 @@ namespace uds {
       pins.digitalWritePin(trig, 1)
       control.waitMicros(20)
       pins.digitalWritePin(trig, 0)
-      return pins.pulseIn(echo, PulseValue.High) * 153 
+      return pins.pulseIn(echo, PulseValue.High) * 153 / 29 / 2 / 100
     }
 }
