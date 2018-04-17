@@ -2,7 +2,7 @@
 namespace uds {
 
     //% blockId=uds block="距離を測定"
-    export function get(text: string, time: number = 500): void {
+    export function get(): void {
       let distance = 0
       pins.digitalWritePin(DigitalPin.P0, 0)
       control.waitMicros(2)
