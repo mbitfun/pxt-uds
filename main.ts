@@ -1,6 +1,6 @@
-//% weight=70 icon="\u30A2" color=#EC7505 block="超音波距離センサ"
+//% weight=70 icon="\u21A9" color=#EC7505 block="超音波距離センサ"
 namespace uds {
-    //% blockId=uds block="距離を測定 trig %trig|echo %echo"
+    //% blockId=uds block="距離を測定する trig %trig|echo %echo"
     export function get(trig: DigitalPin, echo: DigitalPin): number {
       pins.digitalWritePin(trig, 0)
       control.waitMicros(2)
